@@ -1,4 +1,4 @@
-# agentspace-com-br
+# AgentSpace
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,137 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-agentspace-com-br is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://agentspace.com.br/
+AgentSpace provides a persistent workspace, sandbox, and hosting platform for AI agents, allowing them to store files beyond a session, run code, and publish public URLs. Access is available via MCP, REST, or A2A interfaces, with free and paid plans offering varying storage and site limits. The service includes dedicated support where users can contact the team with questions, problems, or ideas.
+
+**Areas:** AI · Agents · Workspace · Sandbox · Hosting
+
+## AgentSpace on APIs.io
+
+Everything profiled for AgentSpace is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agentspace-com-br/](https://apis.io/providers/agentspace-com-br/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [AgentSpace Account API](https://apis.io/apis/agentspace-com-br/agentspace-com-br-account-api/) — The account API from AgentSpace — 12 operation(s) for account.
+- [AgentSpace Agent API](https://apis.io/apis/agentspace-com-br/agentspace-com-br-agent-api/) — The agent API from AgentSpace — 12 operation(s) for agent.
+- [AgentSpace Billing API](https://apis.io/apis/agentspace-com-br/agentspace-com-br-billing-api/) — The billing API from AgentSpace — 4 operation(s) for billing.
+- [AgentSpace Review API](https://apis.io/apis/agentspace-com-br/agentspace-com-br-review-api/) — The review API from AgentSpace — 7 operation(s) for review.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Agentspace Com Br Agentic Access](https://apis.io/agentic-access/agentspace-com-br/agentspace-com-br-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Body_upload_file_api_v1_files_upload_post](https://apis.io/schemas/agentspace-com-br/agentspace-com-br-body-upload-file-api-v1-files-upload-post/)
+- [DeleteAccountBody](https://apis.io/schemas/agentspace-com-br/agentspace-com-br-delete-account-body/)
+- [DeployBody](https://apis.io/schemas/agentspace-com-br/agentspace-com-br-deploy-body/)
+- [ExecBody](https://apis.io/schemas/agentspace-com-br/agentspace-com-br-exec-body/)
+- [RegisterBody](https://apis.io/schemas/agentspace-com-br/agentspace-com-br-register-body/)
+- [WriteFileBody](https://apis.io/schemas/agentspace-com-br/agentspace-com-br-write-file-body/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Agentspace Com Br Context](https://apis.io/jsonld/agentspace-com-br/agentspace-com-br-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AgentSpace API Rules](https://apis.io/rules/agentspace-com-br/agentspace-com-br-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Agentspace Com Br Domain Security](https://apis.io/security/agentspace-com-br/agentspace-com-br-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Agentspace Com Br Plans Pricing](https://apis.io/plans/agentspace-com-br/agentspace-com-br-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Agentspace Com Br Rate Limits](https://apis.io/rate-limits/agentspace-com-br/agentspace-com-br-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://agentspace.com.br/)
+- [Documentation](https://agentspace.com.br/docs)
+- [Getting started](https://agentspace.com.br/docs)
+- [Pricing](https://agentspace.com.br/pricing)
+- [Sign up](https://agentspace.com.br/register)
+- [Support](https://agentspace.com.br/suporte)
+- [Terms of service](https://agentspace.com.br/termos)
+- [Privacy policy](https://agentspace.com.br/privacidade)
+
+## API Evangelist rating
+
+**Kin Score 50.1** — developing · rubric 0.26.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 50.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 32.6 |
+| Access clarity | 73.2 |
+
+**Agent readiness 59.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentspace-com-br/](https://apis.io/providers/agentspace-com-br/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AgentSpace: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agentspace-com-br/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
